@@ -1,0 +1,14 @@
+# build/test
+*.exe
+*.test
+*.out
+
+# runtime artifacts
+*.log
+scheduler.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# go
+.gocache/
