@@ -1,10 +1,4 @@
-# build/test
-*.exe
-*.test
-*.out
-
-# runtime artifacts
-*.log
+# db / runtime
 scheduler.db
 *.db-journal
 *.db-wal
@@ -12,3 +6,4 @@ scheduler.db
 
 # go
 .gocache/
+*.exe
